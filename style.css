@@ -1,0 +1,166 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: palegoldenrod;
+    text-align: center;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+table {
+    margin: 0 auto;
+}
+
+td {
+    background-color: rgb(151, 205, 207);
+    border: 2px solid black;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+h1 {
+    margin: 0;
+}
+
+h3 {
+    font-size: 2em;
+    margin: 0.2em;
+    color: rgb(255, 255, 0);
+}
+
+.levels {
+    margin-top: 10px;
+}
+
+.btn {
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: darkblue;
+    font-size: 1.2em;
+}
+
+.btn:hover {
+    color: brown;
+}
+
+.btn-reset {
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 1.2em;
+}
+
+.stats {
+    display: flex;
+    justify-content: center;
+}
+
+.time {
+    font-size: 1.2em;
+}
+
+.smiley {
+    margin: 0 30px;
+    padding-top: 3px;
+}
+
+.cover {
+    visibility: hidden;
+}
+
+.gray {
+    background-color: gray
+}
+
+.loose {
+    color: black;
+}
+
+.gray.flag {
+    background-image: url(img/flag.png);
+    background-size: 35px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.header {
+    background-color: darkgoldenrod;
+    padding: 10px;
+}
+
+.bomb {
+    background-image: url('img/bomb.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 0;
+}
+
+.num1 {
+    color: blue;
+}
+.num2 {
+    color: green;
+}
+.num3 {
+    color: red;
+}
+.num4 {
+    color: purple;
+}
+.num5 {
+    color: brown;
+}
+.num6 {
+    color: turquoise;
+}
+.num7 {
+    color: magenta;
+}
+.num8 {
+    color: black;
+}
+
+@media only screen and (max-width: 579px) {
+    td {
+    width: 28px;
+    height: 28px;
+    }
+
+    .header {
+    padding: 5px;
+    }
+
+    .scores {
+        margin: 10px 0;
+    }
+
+    .btn-reset, .time {
+        font-size: 1em;
+    } 
+
+    .gray.flag {
+    background-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    td {
+    padding: 5px;
+    }
+}
+
+@media only screen and (max-width: 374px) {
+    td {
+    padding: 2px;
+    }
+
+    .gray.flag {
+    background-size: 20px;
+    }
+}
